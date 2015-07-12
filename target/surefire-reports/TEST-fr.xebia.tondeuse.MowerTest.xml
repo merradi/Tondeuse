@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.006" errors="0" skipped="0" tests="1" name="fr.xebia.tondeuse.AppTest">
+<testsuite failures="0" time="0.044" errors="0" skipped="0" tests="24" name="fr.xebia.tondeuse.MowerTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_55\jre\bin"/>
@@ -61,5 +61,28 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase time="0.006" classname="fr.xebia.tondeuse.AppTest" name="testApp"/>
+  <testcase time="0.006" classname="fr.xebia.tondeuse.MowerTest" name="[0] Position, N, Position (testMoveForward)"/>
+  <testcase time="0" classname="fr.xebia.tondeuse.MowerTest" name="[1] Position, N, Position (testMoveForward)"/>
+  <testcase time="0.001" classname="fr.xebia.tondeuse.MowerTest" name="[2] Position, N, Position (testMoveForward)"/>
+  <testcase time="0.001" classname="fr.xebia.tondeuse.MowerTest" name="[3] Position, N, Position (testMoveForward)"/>
+  <testcase time="0" classname="fr.xebia.tondeuse.MowerTest" name="[4] Position, E, Position (testMoveForward)"/>
+  <testcase time="0" classname="fr.xebia.tondeuse.MowerTest" name="[5] Position, E, Position (testMoveForward)"/>
+  <testcase time="0.001" classname="fr.xebia.tondeuse.MowerTest" name="[6] Position, E, Position (testMoveForward)"/>
+  <testcase time="0" classname="fr.xebia.tondeuse.MowerTest" name="[7] Position, E, Position (testMoveForward)"/>
+  <testcase time="0" classname="fr.xebia.tondeuse.MowerTest" name="[8] Position, S, Position (testMoveForward)"/>
+  <testcase time="0" classname="fr.xebia.tondeuse.MowerTest" name="[9] Position, S, Position (testMoveForward)"/>
+  <testcase time="0" classname="fr.xebia.tondeuse.MowerTest" name="[10] Position, S, Position (testMoveForward)"/>
+  <testcase time="0" classname="fr.xebia.tondeuse.MowerTest" name="[11] Position, S, Position (testMoveForward)"/>
+  <testcase time="0" classname="fr.xebia.tondeuse.MowerTest" name="[12] Position, W, Position (testMoveForward)"/>
+  <testcase time="0.001" classname="fr.xebia.tondeuse.MowerTest" name="[13] Position, W, Position (testMoveForward)"/>
+  <testcase time="0" classname="fr.xebia.tondeuse.MowerTest" name="[14] Position, W, Position (testMoveForward)"/>
+  <testcase time="0.002" classname="fr.xebia.tondeuse.MowerTest" name="[15] Position, W, Position (testMoveForward)"/>
+  <testcase time="0" classname="fr.xebia.tondeuse.MowerTest" name="[0] N, W (testRotateLeft)"/>
+  <testcase time="0.002" classname="fr.xebia.tondeuse.MowerTest" name="[1] W, S (testRotateLeft)"/>
+  <testcase time="0" classname="fr.xebia.tondeuse.MowerTest" name="[2] S, E (testRotateLeft)"/>
+  <testcase time="0.001" classname="fr.xebia.tondeuse.MowerTest" name="[3] E, N (testRotateLeft)"/>
+  <testcase time="0.002" classname="fr.xebia.tondeuse.MowerTest" name="[0] N, E (testRotateRight)"/>
+  <testcase time="0.002" classname="fr.xebia.tondeuse.MowerTest" name="[1] E, S (testRotateRight)"/>
+  <testcase time="0.024" classname="fr.xebia.tondeuse.MowerTest" name="[2] S, W (testRotateRight)"/>
+  <testcase time="0.001" classname="fr.xebia.tondeuse.MowerTest" name="[3] W, N (testRotateRight)"/>
 </testsuite>
